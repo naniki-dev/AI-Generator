@@ -4,22 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css" />
-    <title>AI Generator</title>
+    <title>AI Dessert Recipe Generator</title>
 </head>
 <body>
-    <form>
-        <input
-        type="text"
-        placeholder="Enter a topic"
-        autofocus
-        required
-        autocomplete="off"
-        />
-        <input type="submit" />
-    </form>
-      <div>
-        
-      </div>
+    <div class="container">
+      <header>
+        <h1>AI Dessert Recipe Generator</h1>
+      </header>
+
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the name of the dessert you want to make"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="recipe">
+
+        </div>
+      </main>
+
+      <footer>
+       
+      </footer>
+    </div>
     
     <script src="src/index.js"></script>
 </body>
