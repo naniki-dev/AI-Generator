@@ -4,7 +4,7 @@ The AI Poem Generator transforms a simple word into a creative six-line poem usi
 
 ## Live Demo
 
-Access the application here: 
+Access the application here: https://naniki-dev.github.io/AI-Generator/
 
 ## Features
 
@@ -34,8 +34,9 @@ Access the application here:
 
 ```text
 ├── index.html
-├── style.css
-├── script.js
+├── src
+│   ├── style.css
+│   └── script.js
 └── README.md
 ```
 
