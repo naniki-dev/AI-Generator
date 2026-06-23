@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400;1,500;1,600&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Poem Generator</title>
@@ -11,7 +16,7 @@
 <body>
     <div class="container">
       <header>
-        <h1>AI Poem Generator</h1>
+        <h1>Describe the mood of your next poem...</h1>
       </header>
 
       <main>
@@ -19,7 +24,7 @@
         <form id="poem-generator-form">
           <input
             type="text"
-            placeholder="Describe the mood of your next poem..."
+            placeholder="Enter any random word for your poem"
             autofocus
             required
             autocomplete="off"
@@ -30,7 +35,7 @@
         </form>
           <div class="hint"> e.g: midnight, rain, silence </div>
         </div>
-        <div class="poem" id="poem"></div>
+        <div class="poem hidden" id="poem"></div>
       </main>
     
     <script src="src/index.js"></script>

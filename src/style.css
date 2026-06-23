@@ -1,6 +1,8 @@
 body {
-  background-color: #f9f7fe;
-  font-family: Helvetica, Arial, sans-serif;
+  background-color: #FDF9EE;
+  /* font-family: Helvetica, Arial, sans-serif; */
+  /* font-family: Playfair Display; */
+  font-family: 'DM Sans', sans-serif;
 }
 
 a {
@@ -17,16 +19,19 @@ header {
 }
 
 h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 900;  /* bump up from 400/500 to 700 */
+  font-size: 45px;   /* increase size */
+  color: #1A1A2E;    /* dark navy, not the current grey */
   text-align: center;
-  font-weight: 800;
-  font-size: 36px;
-  line-height: 1.5;
-  color: #272044;
+  margin-bottom: 40px;
+  /* font-style: ; */
 }
 
 .form-container {
-  background-color: white;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  background-color: #FDF9EE;
+  /* box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08); */
   border-radius: 10px;
   margin-bottom: 30px;
   padding: 15px 20px;
@@ -49,9 +54,9 @@ form {
   border: 1px solid rgba(39, 33, 66, 0.5);
   width: 80%;
   font-size: 16px;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   line-height: 20px;
-  color: #272044;
+  color: #1A1A2E;
 }
 
 .submit-button {
@@ -61,7 +66,7 @@ form {
   border: none;
   width: 150px;
   font-size: 16px;
-  border-radius: 50px;
+  border-radius: 5px;
   padding: 14px 24px;
 }
 
@@ -71,11 +76,15 @@ form {
 
 .poem {
   font-size: 16px;
-  background-color: #fff;
+  background-color: #FDF9EE;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #885df1;
-  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  border-left: 3px solid #E1DFDB;
+  /* box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03); */
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
 }
 
 /* footer {
